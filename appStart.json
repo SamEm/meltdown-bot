@@ -1,0 +1,11 @@
+{
+  "uid": "meltdown",
+  "append": true,
+  "watch": true,
+  "script": "index.js",
+  "sourceDir": "./",
+  "logFile": "./logs/botlog.log",
+  "errFile": "./logs/errFile.log",
+  "wodkingDir": "./",
+  "path": "./"
+}
