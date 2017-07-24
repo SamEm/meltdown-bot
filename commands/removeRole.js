@@ -4,7 +4,7 @@ const ids = require('../ids');
 let utils = require('../utils');
 
 let removeRole = {
-  pattern: /!remove/i,
+  pattern: /!del/i,
   execute: function(bot, channelID, userTag, userID, command, msg) {
     let splitMsg = msg.content.split(' ');
     splitMsg.shift();
